@@ -3,6 +3,7 @@ $red: #B02B2C;
 $green: #00897B;
 $blue: #4bacfe;
 $black: #36393D;
+$grey: #76838f;
 
 // flash
 $error: #dc4747 !default;
@@ -10,6 +11,7 @@ $warning: #f2a654 !default;
 $success: #46be8a !default;
 $info: #57c7d4 !default;
 $flash-text-color: #fff !default;
+$flash-background-color: $grey !default;
 
 // status_tag
 $status-tag-text-color: #fff !default;
@@ -41,5 +43,7 @@ $sidebar-nested-item-hover-background: #e7e7e7 !default;
 // text
 $text-color: #5a5a5a !default;
 $text-color-important: #526069 !default;
+
+$box-shadow: 0 0 4px 0 rgba(0,0,0,0.1) !default;
 
 $primary-color: $blue !default;
